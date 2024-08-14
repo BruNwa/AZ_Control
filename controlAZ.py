@@ -69,7 +69,7 @@ def main():
                 time.sleep(0.5)
                 break
             elif show_feed == 'n':
-                print("Remember! to Exit the program click on End button while selecting the terminal.")
+                print("Remember! to Exit the program click on the End button.")
                 print("ENJOY!!!")
                 time.sleep(3)
                 break
@@ -159,7 +159,7 @@ def main():
                 time.sleep(0.5)
                 break
             elif show_feed == 'n':
-                print("Remember! to Exit the program click on End button while selecting the terminal.")
+                print("Remember! to Exit the program click on the End button.")
                 print("ENJOY!!!")
                 time.sleep(3)
                 break
