@@ -59,9 +59,7 @@ The image above shows the 21 hand landmarks used by the handModule. Each point i
 ### faceModule
 
 This module uses MediaPipe's face mesh to detect and track facial landmarks. It can detect face positions and draw specific landmark points.
-
-![face_mesh](https://github.com/user-attachments/assets/29be28f9-e21a-4e86-8070-0e313ca0e406)
-
+![face_mesh](https://github.com/user-attachments/assets/f04667de-88ef-49dc-9750-e75bac89531c)
 The image above displays the face mesh with 468 landmarks. Each point is numbered, allowing for precise facial feature tracking.
 
 ## Customization
