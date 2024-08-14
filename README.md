@@ -74,7 +74,7 @@ Refer to the main script for customizable parameters.
 
 ## Exiting the Program
 
-Press the 'End' key while the terminal is in focus to exit the program.
+Press the 'End' key to exit the program.
 
 ## Contributing
 
