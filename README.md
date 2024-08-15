@@ -12,24 +12,26 @@ AZ Control is a Python-based computer vision project that allows users to contro
 - Optional camera feed display
 
 ## Requirements
-```
+
 - Python 3.x
 - OpenCV (cv2)
 - MediaPipe
 - PyAutoGUI
 - Pynput
 - NumPy
-```
+
 ## Installation
 
 1. Clone this repository:
+```
 > git clone https://github.com/BruNwa/AZ_Control.git
 
 > cd AZ_Control
-
+```
 3. Install the required libraries:
+```
 > pip install opencv-python mediapipe pyautogui pynput numpy
-
+```
 ## Usage
 
 ### Option 1: Run the Python script
@@ -89,11 +91,11 @@ The image above displays the face mesh with 468 landmarks. Each point is numbere
 ## Customization
 
 You can customize various aspects of the application, including:
-```
+
 - Gesture detection thresholds
 - Keyboard mappings for gestures
 - Mouse sensitivity and smoothing
-```
+
 Refer to the main script for customizable parameters.
 
 ## Exiting the Program
@@ -113,4 +115,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - MediaPipe for providing the hand and face detection models
 - OpenCV community for computer vision tools
   
-### The idea was inspired by Dalouat_Esports.
+ *The idea was inspired by Dalouat_Esports.*
