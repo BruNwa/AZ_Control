@@ -40,7 +40,7 @@ Run the main script:
 
 ### Option 2: Run the executable version
 
-For quick and easy use, an executable version is available. Simply click on <a href="https://drive.google.com/drive/folders/1ztA_Wa3PFQ_II1XcXvuw4jvumBHwCRJL?usp=sharing" target="_blank"> <b>AZ Control-Executable</a> to download it. This option does not require Python or any additional libraries to be installed on your system.
+For quick and easy use, an executable version is available. Simply click on <a href="https://drive.google.com/drive/folders/1ztA_Wa3PFQ_II1XcXvuw4jvumBHwCRJL?usp=sharing" target="_blank"> <b>AZ Control-Executable</b></a> to download it. This option does not require Python or any additional libraries to be installed on your system.
 
 Follow the on-screen prompts to choose your desired control mode and configure settings.
 
