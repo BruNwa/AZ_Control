@@ -23,7 +23,7 @@ AZ Control is a Python-based computer vision project that allows users to contro
 ## Installation
 
 1. Clone this repository:
-git clone https://github.com/BruNwa/AZ_Control.git
+> git clone https://github.com/BruNwa/AZ_Control.git
 > cd AZ_Control
 
 3. Install the required libraries:
