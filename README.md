@@ -28,13 +28,30 @@ cd AZ_Control
 Copy
 2. Install the required libraries:
 pip install opencv-python mediapipe pyautogui pynput numpy
-Copy
+
 ## Usage
 
+### Option 1: Run the Python script
+
+To use this option, ensure you have installed all the required libraries listed in the Requirements section.
+
 Run the main script:
-python main.py
-Copy
+python3 controlAZ.py
+
+### Option 2: Run the executable version
+
+For quick and easy use, an executable version is available in the `AZ Control-Executable` folder. This option does not require Python or any additional libraries to be installed on your system.
+
 Follow the on-screen prompts to choose your desired control mode and configure settings.
+
+### Important Instructions
+
+- Ensure you are in front of a fixed camera.
+- For Mode 1 (Blink, Mouth, and Hand Gesture Control):
+  - Position yourself closer to the camera for clear face detection.
+  - Maximum distance: 1 meter from the camera.
+- For Mode 2 (Mouse Control):
+  - Ensure you have enough space to move your hand freely without going out of the camera frame.
 
 ### Mode 1: Blink, Mouth, and Hand Gesture Control
 
@@ -46,20 +63,26 @@ Follow the on-screen prompts to choose your desired control mode and configure s
 - Move your hand to control the mouse cursor
 - Perform specific gestures for left-click, right-click, and drag operations
 
+#### Left Click Gesture
+![leftClick](https://github.com/user-attachments/assets/9a92df80-4758-41b1-a1f4-133f1493775c)
+#### Right Click Gesture
+![rightClick](https://github.com/user-attachments/assets/f08a28ff-97f5-47ce-bc9d-6471da8783a2)
+
 ## Modules
 
 ### handModule
 
-This module uses MediaPipe to detect and track hand landmarks. It provides functionality to find hands in a frame and get their positions.
 
-![hand_landmarks](https://github.com/user-attachments/assets/26fab3e3-0da3-4734-98a4-f580d91a9f65)
+s module uses MediaPipe to detect and track hand landmarks. It provides functionality to find hands in a frame and get their positions.
+
+Thi![hand_landmarks](https://github.com/user-attachments/assets/43d0a973-afd3-461a-bd9b-0cf261cf85f8)
 
 The image above shows the 21 hand landmarks used by the handModule. Each point is numbered and corresponds to a specific part of the hand, as detailed in the legend.
 
 ### faceModule
 
 This module uses MediaPipe's face mesh to detect and track facial landmarks. It can detect face positions and draw specific landmark points.
-![face_mesh](https://github.com/user-attachments/assets/f04667de-88ef-49dc-9750-e75bac89531c)
+![face_mesh](https://github.com/user-attachments/assets/2799a40a-0151-43dd-babd-ad83a81f3a25)
 The image above displays the face mesh with 468 landmarks. Each point is numbered, allowing for precise facial feature tracking.
 
 ## Customization
@@ -74,7 +97,7 @@ Refer to the main script for customizable parameters.
 
 ## Exiting the Program
 
-Press the 'End' key to exit the program.
+Press the 'End' key while the terminal is in focus to exit the program.
 
 ## Contributing
 
