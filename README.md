@@ -24,10 +24,10 @@ AZ Control is a Python-based computer vision project that allows users to contro
 
 1. Clone this repository:
 git clone https://github.com/BruNwa/AZ_Control.git
-cd AZ_Control
+> cd AZ_Control
 
 3. Install the required libraries:
-pip install opencv-python mediapipe pyautogui pynput numpy
+> pip install opencv-python mediapipe pyautogui pynput numpy
 
 ## Usage
 
@@ -36,11 +36,11 @@ pip install opencv-python mediapipe pyautogui pynput numpy
 To use this option, ensure you have installed all the required libraries listed in the Requirements section.
 
 Run the main script:
-python3 controlAZ.py
+> python3 controlAZ.py
 
 ### Option 2: Run the executable version
 
-For quick and easy use, an executable version is available in the `AZ Control-Executable` folder. This option does not require Python or any additional libraries to be installed on your system.
+For quick and easy use, an executable version is available. Simply click on [AZ Control-Executable]([https://example.com/download](https://drive.google.com/drive/folders/1ztA_Wa3PFQ_II1XcXvuw4jvumBHwCRJL?usp=sharing))  to download it. This option does not require Python or any additional libraries to be installed on your system.
 
 Follow the on-screen prompts to choose your desired control mode and configure settings.
 
