@@ -73,9 +73,9 @@ Follow the on-screen prompts to choose your desired control mode and configure s
 ### handModule
 
 
-s module uses MediaPipe to detect and track hand landmarks. It provides functionality to find hands in a frame and get their positions.
+This module uses MediaPipe to detect and track hand landmarks. It provides functionality to find hands in a frame and get their positions.
 
-Thi![hand_landmarks](https://github.com/user-attachments/assets/43d0a973-afd3-461a-bd9b-0cf261cf85f8)
+![hand_landmarks](https://github.com/user-attachments/assets/43d0a973-afd3-461a-bd9b-0cf261cf85f8)
 
 The image above shows the 21 hand landmarks used by the handModule. Each point is numbered and corresponds to a specific part of the hand, as detailed in the legend.
 
