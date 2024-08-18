@@ -106,10 +106,6 @@ Press the 'End' key while the terminal is in focus to exit the program.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - MediaPipe for providing the hand and face detection models
